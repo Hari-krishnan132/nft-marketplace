@@ -1,0 +1,54 @@
+html,
+body {
+    margin-top: 0px;
+    margin: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+        Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    font-weight: 800;
+    text-decoration: none;
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 0%;
+}
+
+hr {
+    margin: 10 px;
+}
+
+.connect {
+    float: right;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.p-2 {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-flex-col {
+    width: 300px;
+    float: left;
+    flex-direction: row;
+    padding: 0px;
+    margin: 25px;
+}
